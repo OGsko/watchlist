@@ -22,6 +22,8 @@ const App = () => {
         return <SeriesPage/>
       case "watchlist": 
         return <h1>Watchlist</h1>
+      default : 
+      return <HomePage/>
     }
   }
 
