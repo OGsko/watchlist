@@ -6,7 +6,7 @@ type HeaderProps = {
 
 const Header = ({changePage}: HeaderProps) => {
     return (
-        <div className={styles.meny}>
+        <header className={styles.meny}>
             <h1>WatchList</h1>
             <ul className={styles.ul}>
                 <li><button onClick={() => changePage("home")}>
@@ -22,7 +22,7 @@ const Header = ({changePage}: HeaderProps) => {
                     Watchlist
                     </button></li>
             </ul>
-        </div>
+        </header>
     )
 }
 
